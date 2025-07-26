@@ -1,0 +1,29 @@
+#Converage reports
+Converage
+
+#API keys and secrets 
+.env
+
+#Dependency directory
+node_modules
+
+#os metadata
+.DS_Store
+Thumbs.db
+
+#Ignore built ts files
+dist/**/*
+
+#vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+##local jistory for vscode
+.history/
+
+##built vscode extensions
+*.vsix
