@@ -24,6 +24,15 @@ Content-Type: application/json
     "firstName": "LUCAS"
 }
 
+### Modificaciones a un Usuario con PATCH
+PATCH  http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
+Content-Type: application/json
+
+{
+    "firstName": "Gastón"
+
+}
+
 
 ###Borrar un usuario
 DELETE http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
