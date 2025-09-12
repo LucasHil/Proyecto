@@ -2,38 +2,41 @@
 GET http://localhost:3000/api/users
 
 ###Obtener un usuario uitilizando id
-GET http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
+GET http://localhost:3000/api/users/1
 
 ###Crear un nuevo usuario. ¿¿¿Cómo agrego la fecha???
 POST http://localhost:3000/api/users
 Content-Type: application/json
 
 {
-    "firstName": "Julio",
-    "lastName": "Mendez",
-    "email": "Mendez@gmail.com"
+    "firstName": "Pepe",
+    "lastName": "Hildfdfebrandt",
+    "email": "3232@gmail.com"
 }
 
 
 ###Cambiar un Usuario
-PUT http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
+PUT http://localhost:3000/api/users/3
 Content-Type: application/json
 
 {
-    "email": "hola@gmail.com",
-    "firstName": "LUCAS"
+    "firstName": "Pedro",
+    "lastName": "Hilman",
+    "email": "hilmanp@gmail.com"
+
 }
 
 ### Modificaciones a un Usuario con PATCH
-PATCH  http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
+PATCH  http://localhost:3000/api/users/5
 Content-Type: application/json
 
 {
-    "firstName": "Gastón"
+    "firstName": "Gastón",
+    "lastName": "Rodriguez"
 
 }
 
 
 ###Borrar un usuario
-DELETE http://localhost:3000/api/users/f15380c7-dde7-4767-a72a-42c520d21808
+DELETE http://localhost:3000/api/users/1
 
