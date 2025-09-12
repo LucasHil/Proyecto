@@ -1,5 +1,6 @@
 import express from 'express'
 import { userRouter } from './users/users.routes.js'
+import 'dotenv/config'
 
 const app = express()
 app.use(express.json())
