@@ -10,6 +10,22 @@ import heels_and_shoes_hl from './heels_and_shoes_hl.png'
 import heels from './heels.png'
 import shoes_hl from './shoes_hl.png'
 import home_img from './home_img.png'
+import sneakers1 from './sneakers1.jpg'
+import sneakers2 from './sneakers2.jpg'
+import sneakers3 from './sneakers3.jpg'
+import sneakers4 from './sneakers4.jpg'
+import sneakers5 from './sneakers5.jpg'
+import sneakers6 from './sneakers6.jpg'
+import sneakers7 from './sneakers7.jpg'
+import sneakers8 from './sneakers8.jpg'
+import sneakers9 from './sneakers9.jpg'
+import sneakers10 from './sneakers10.jpg'
+import sneakers11 from './sneakers11.jpg'
+import sneakers12 from './sneakers12.jpg'
+import sneakers13 from './sneakers13.jpg'
+import sneakers14 from './sneakers14.jpg'
+import sneakers15 from './sneakers15.jpg'
+
 
 export const assets ={
     HL,
@@ -23,7 +39,22 @@ export const assets ={
     heels_and_shoes_hl,
     heels,
     shoes_hl,
-    home_img
+    home_img,
+    sneakers1,
+    sneakers2,
+    sneakers3,
+    sneakers4,
+    sneakers5,
+    sneakers6,
+    sneakers7,
+    sneakers8,
+    sneakers9,
+    sneakers10,
+    sneakers11,
+    sneakers12,
+    sneakers13,
+    sneakers14,
+    sneakers15
 }
 
 export const products = [
@@ -36,7 +67,8 @@ export const products = [
         subCategory: "Zapatilla urbana",
         sizes: ["40", "41", "42"],
         date: "20230112",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers1]
     },
     {
         _id: "0002",
@@ -47,7 +79,8 @@ export const products = [
         subCategory: "Zapatilla deportiva",
         sizes: ["36", "37", "38"],
         date: "20230810",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers2]
     },
     {
         _id: "0003",
@@ -58,7 +91,8 @@ export const products = [
         subCategory: "Zapatilla clásica",
         sizes: ["42", "43", "44"],
         date: "20230522",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers3]
     },
     {
         _id: "0004",
@@ -69,7 +103,8 @@ export const products = [
         subCategory: "Zapatilla de verano",
         sizes: ["35", "36", "37.5"],
         date: "20230718",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers4]
     },
     {
         _id: "0005",
@@ -80,7 +115,8 @@ export const products = [
         subCategory: "Zapatilla outdoor",
         sizes: ["43", "44", "45"],
         date: "20221120",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers5]
     },
     {
         _id: "0006",
@@ -91,7 +127,8 @@ export const products = [
         subCategory: "Zapatilla urbana",
         sizes: ["37", "38", "39"],
         date: "20230415",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers6]
     },
     {
         _id: "0007",
@@ -102,7 +139,8 @@ export const products = [
         subCategory: "Zapatilla deportiva",
         sizes: ["40", "41.5", "42.5"],
         date: "20230225",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers7]
     },
     {
         _id: "0008",
@@ -113,7 +151,8 @@ export const products = [
         subCategory: "Zapatilla casual",
         sizes: ["36", "37", "38.5"],
         date: "20230609",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers8]
     },
     {
         _id: "0009",
@@ -124,7 +163,8 @@ export const products = [
         subCategory: "Zapatilla outdoor",
         sizes: ["44", "45", "46"],
         date: "20230903",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers9]
     },
     {
         _id: "0010",
@@ -135,7 +175,8 @@ export const products = [
         subCategory: "Zapatilla fitness",
         sizes: ["35", "36", "37"],
         date: "20230130",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers10]
     },
     {
         _id: "0011",
@@ -146,7 +187,8 @@ export const products = [
         subCategory: "Zapatilla de invierno",
         sizes: ["42", "43.5", "44"],
         date: "20221102",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers11]
     },
     {
         _id: "0012",
@@ -157,7 +199,8 @@ export const products = [
         subCategory: "Zapatilla de verano",
         sizes: ["36", "37", "38"],
         date: "20220715",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers12]
     },
     {
         _id: "0013",
@@ -168,7 +211,8 @@ export const products = [
         subCategory: "Zapatilla outdoor",
         sizes: ["43", "44", "45.5"],
         date: "20231101",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers13]
     },
     {
         _id: "0014",
@@ -179,7 +223,8 @@ export const products = [
         subCategory: "Zapatilla casual",
         sizes: ["35", "36.5", "37"],
         date: "20230305",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers14]
     },
     {
         _id: "0015",
@@ -190,7 +235,8 @@ export const products = [
         subCategory: "Zapatilla de invierno",
         sizes: ["44", "45", "46"],
         date: "20221220",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers15]
     },
     {
         _id: "0016",
@@ -201,7 +247,8 @@ export const products = [
         subCategory: "Zapatilla de verano",
         sizes: ["36", "37", "38"],
         date: "20230819",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers5]
     },
     {
         _id: "0017",
@@ -212,7 +259,8 @@ export const products = [
         subCategory: "Zapatilla urbana",
         sizes: ["42", "43", "44"],
         date: "20230401",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers5]
     },
     {
         _id: "0018",
@@ -223,7 +271,8 @@ export const products = [
         subCategory: "Zapatilla fitness",
         sizes: ["36", "37", "38.5"],
         date: "20230912",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers5]
     },
     {
         _id: "0019",
@@ -234,7 +283,8 @@ export const products = [
         subCategory: "Zapatilla outdoor",
         sizes: ["44", "45", "46.5"],
         date: "20220808",
-        bestsaller: true
+        bestsaller: true,
+        image: [sneakers5]
     },
     {
         _id: "0020",
@@ -245,6 +295,7 @@ export const products = [
         subCategory: "Zapatilla casual",
         sizes: ["35", "36", "37.5"],
         date: "20230318",
-        bestsaller: false
+        bestsaller: false,
+        image: [sneakers5]
     }
 ]
