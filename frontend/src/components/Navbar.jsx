@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
-      <img src={assets.HL} className='w-46' alt="" />
+      <Link to='./' ><img src={assets.HL} className='w-46' alt="" /></Link>
 
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
         
@@ -52,9 +52,9 @@ const Navbar = () => {
                       <img src={assets.chevron_left} className='h-4' alt="" />
                       <p>Back</p>
                   </div>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 border' to='/' >HOME</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 border' to='/collection' >COLLECTION</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 border' to='/about' >ABOUT</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/' >HOME</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/collection' >COLLECTION</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/about' >ABOUT</NavLink>
               </div>
           </div>
     </div>
