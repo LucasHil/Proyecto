@@ -25,6 +25,7 @@ import sneakers12 from './sneakers12.jpg'
 import sneakers13 from './sneakers13.jpg'
 import sneakers14 from './sneakers14.jpg'
 import sneakers15 from './sneakers15.jpg'
+import adidas from './adidas.jpg'
 
 
 export const assets ={
@@ -54,7 +55,8 @@ export const assets ={
     sneakers12,
     sneakers13,
     sneakers14,
-    sneakers15
+    sneakers15,
+    adidas
 }
 
 export const products = [
