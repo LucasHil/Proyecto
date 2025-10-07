@@ -26,7 +26,8 @@ import sneakers13 from './sneakers13.jpg'
 import sneakers14 from './sneakers14.jpg'
 import sneakers15 from './sneakers15.jpg'
 import adidas from './adidas.jpg'
-
+import nike from './nike.svg'
+import chevron_right from './chevron_right.svg'
 
 export const assets ={
     HL,
@@ -56,7 +57,9 @@ export const assets ={
     sneakers13,
     sneakers14,
     sneakers15,
-    adidas
+    adidas,
+    nike,
+    chevron_right
 }
 
 export const products = [
