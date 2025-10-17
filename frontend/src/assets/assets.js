@@ -31,6 +31,7 @@ import chevron_right from './chevron_right.svg'
 import heroOne from './heroOne.jpg'
 import heroTwo from './heroTwo.jpg'
 import heroTree from './heroTree.jpg'
+import cross_small from './cross_small.svg'
 
 export const assets ={
     HL,
@@ -65,7 +66,8 @@ export const assets ={
     chevron_right,
     heroOne,
     heroTwo,
-    heroTree
+    heroTree,
+    cross_small
 }
 
 export const products = [
