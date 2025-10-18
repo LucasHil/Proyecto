@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext.jsx';
+import { assets } from '../assets/assets.js';
 
 const Product = () => {
 
@@ -8,6 +9,7 @@ const Product = () => {
   const {products, currency} = useContext(ShopContext);
   const [productData, setProductData] = useState(false);
   const [image, setImage] = useState('');
+  const [size, setSize] =useState('');
 
   const fetchProductData = async () => {
 
@@ -51,7 +53,21 @@ const Product = () => {
               <p className='text-gray-500'>Hasta 6x $12.300 sin interés.</p>
               <img className='w-[20%] border-1 rounded-lg border-gray-500 mt-1.5' src={image} alt="" />
               <div className='flex flex-col gap-4 my-8'>
-                <p>Select Size</p>
+                <p className='font-extralight'>Select Size</p>
+                <div className='flex gap-2'>
+                  {
+                    productData.sizes.map((item, index)=>(
+                      <button  onClick={()=>setSize(item)} className={` py-2 px-4 bg-gray-200 cursor-pointer rounded ${item === size ? 'bg-gray-300' : ''}`} key={index}>{item}</button>
+                    ))
+                  }
+                </div>
+              </div>
+              <button className='bg-black text-white px-8 py-3 text-sm font-medium active:bg-gray-600 rounded-full'>ADD TO CART</button>
+              <hr className='mt-8 sm:w-4/5 text-gray-400'/>
+              <div className='text-sm text-gray-500 mt-5 flex flex-col gap-1'>
+                <p>Seis cuotas sin interés con todos los bancos a partir de $149.999.</p>
+                <p>El reembolso está disponible para este producto.</p>
+                <p>Política de devolución y cambio en un plazo de 7 días.</p>
               </div>
             </div>
         </div>

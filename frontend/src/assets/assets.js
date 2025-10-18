@@ -35,6 +35,7 @@ import cross_small from './cross_small.svg'
 import sneakers1_2 from './sneakers1_2.jpg'
 import sneakers1_3 from './sneakers1_3.jpg'
 import sneakers1_4 from './sneakers1_4.jpg'
+import heart from './heart.svg'
 
 export const assets ={
     HL,
@@ -73,7 +74,8 @@ export const assets ={
     cross_small,
     sneakers1_2,
     sneakers1_3,
-    sneakers1_4
+    sneakers1_4,
+    heart
 }
 
 export const products = [
