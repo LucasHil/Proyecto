@@ -32,6 +32,9 @@ import heroOne from './heroOne.jpg'
 import heroTwo from './heroTwo.jpg'
 import heroTree from './heroTree.jpg'
 import cross_small from './cross_small.svg'
+import sneakers1_2 from './sneakers1_2.jpg'
+import sneakers1_3 from './sneakers1_3.jpg'
+import sneakers1_4 from './sneakers1_4.jpg'
 
 export const assets ={
     HL,
@@ -67,21 +70,24 @@ export const assets ={
     heroOne,
     heroTwo,
     heroTree,
-    cross_small
+    cross_small,
+    sneakers1_2,
+    sneakers1_3,
+    sneakers1_4
 }
 
 export const products = [
     {
         _id: "0001",
         name: "Zapatilla Urban X",
-        description: "Color gris con detalles negros, suela antideslizante.",
+        description: "Zapatillas urbanas total black para hombre.",
         price: 72500,
         category: "Men",
         subCategory: "Casual",
         sizes: ["40", "41", "42"],
         date: "20230112",
         bestsaller: true,
-        image: [sneakers1]
+        image: [sneakers1, sneakers1_2, sneakers1_3, sneakers1_4]
     },
     {
         _id: "0002",
