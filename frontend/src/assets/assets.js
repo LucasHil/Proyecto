@@ -36,6 +36,12 @@ import sneakers1_2 from './sneakers1_2.jpg'
 import sneakers1_3 from './sneakers1_3.jpg'
 import sneakers1_4 from './sneakers1_4.jpg'
 import heart from './heart.svg'
+import trash_2 from './trash_2.svg'
+import payment1 from './payment1.png'
+import payment2 from './payment2.png'
+import payment3 from './payment3.png'
+import payment4 from './payment4.png'
+import payment5 from './payment5.png'
 
 export const assets ={
     HL,
@@ -75,7 +81,13 @@ export const assets ={
     sneakers1_2,
     sneakers1_3,
     sneakers1_4,
-    heart
+    heart,
+    trash_2,
+    payment1,
+    payment2,
+    payment3,
+    payment4,
+    payment5
 }
 
 export const products = [
