@@ -42,6 +42,8 @@ import payment2 from './payment2.png'
 import payment3 from './payment3.png'
 import payment4 from './payment4.png'
 import payment5 from './payment5.png'
+import mercadopago from './mercadopago.svg'
+import money from './money.svg'
 
 export const assets ={
     HL,
@@ -87,7 +89,9 @@ export const assets ={
     payment2,
     payment3,
     payment4,
-    payment5
+    payment5,
+    mercadopago,
+    money
 }
 
 export const products = [

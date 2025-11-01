@@ -55,7 +55,7 @@ const Product = () => {
               <img className='w-[20%] border-1 rounded-lg border-gray-500 mt-1.5' src={image} alt="" />
               <div className='flex flex-col gap-4 my-8'>
                 <p className='font-extralight'>Select Size</p>
-                <div className='flex gap-2'>
+                <div className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2'>
                   {
                     productData.sizes.map((item, index)=>(
                       <button  onClick={()=>setSize(item)} className={` py-2 px-4 bg-gray-200 cursor-pointer rounded ${item === size ? 'bg-gray-300' : ''}`} key={index}>{item}</button>
