@@ -23,15 +23,15 @@ const Navbar = () => {
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
         
         <NavLink to='/' className='flex flex-col items-center gap-1'>
-         <p>HOME</p>
+         <p className='montserrat-bold'>HOME</p>
          <hr className='w-5 border-none h-[1.5px] bg-gray-700 hidden'/>
         </NavLink>
-        <NavLink to='/collection' className='flex flex-col items-center gap-1 '>
-         <p>COLLECTION</p>
+        <NavLink to='/collection' className='flex flex-col items-center gap-1'>
+         <p className='montserrat-bold'>COLLECTION</p>
          <hr className='w-5 border-none h-[1.5px] bg-gray-700 hidden'/>
         </NavLink>
         <NavLink to='/about' className='flex flex-col items-center gap-1'>
-         <p>ABOUT</p>
+         <p className='montserrat-bold'>ABOUT</p>
          <hr className='w-5 border-none h-[1.5px] bg-gray-700 hidden' />
         </NavLink>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                 { token &&
                 <div className='group-hover:block hidden absolute dropdown-menu right-0 pt-4'>
                     <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
-                        <p className='cursor-pointer hover:text-black'>My Profile</p>
+                        <p className='cursor-pointer hover:text-black '>My Profile</p>
                         <p onClick={()=>navigate('/orders')} className='cursor-pointer hover:text-black'>Orders</p>
                         <p onClick={logout} className='cursor-pointer hover:text-black'>Logou</p>
                     </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                       <img src={assets.chevron_left} className='h-4' alt="" />
                       <p>Back</p>
                   </div>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/' >HOME</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 .anton-sc-regular' to='/' >HOME</NavLink>
                   <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/collection' >COLLECTION</NavLink>
                   <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/about' >ABOUT</NavLink>
               </div>

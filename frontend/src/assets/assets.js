@@ -44,6 +44,10 @@ import payment4 from './payment4.png'
 import payment5 from './payment5.png'
 import mercadopago from './mercadopago.svg'
 import money from './money.svg'
+import nikegreen from './nikegreen.jpg'
+import nikegreen_rem from './nikegreen_rem.png'
+import icons_nike from './icons_nike.png'
+import white_nike from './white_nike.png'
 
 export const assets ={
     HL,
@@ -91,7 +95,11 @@ export const assets ={
     payment4,
     payment5,
     mercadopago,
-    money
+    money,
+    nikegreen,
+    nikegreen_rem,
+    icons_nike,
+    white_nike
 }
 
 export const products = [

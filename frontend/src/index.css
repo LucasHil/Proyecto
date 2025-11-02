@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "tailwindcss";
 
 a.active hr{
@@ -13,11 +15,29 @@ a.active hr{
   display: none;
 }
 
-.prata-regular {
-  font-family: "Prata", serif;
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 
 @media (max-width:640px){
   a.active{
