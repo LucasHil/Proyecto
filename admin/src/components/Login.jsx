@@ -29,7 +29,7 @@ const Login = ({setToken}) => {
             <h1 className='text-2xl mb-4 font-medium'>Admin Panel</h1>
             <form action="" className='' onSubmit={onSubmitHandler}>
                 <div className='mb-3 min-w-72'>
-                    <p className='text-sm font-medium text-gray-700 mb-2'>Email Adress</p>
+                    <p className='text-sm font-medium text-gray-700 mb-2'>Email</p>
                     <input onChange={(e)=> setEmail(e.target.value)} value={email} className='rounded-mmd w-full px-3 py-2 border border-gray-300 outline-none' type='email' placeholder='Enter your email' required/>
                 </div>
                 <div className='mb-3 min-w-72'>
