@@ -8,7 +8,11 @@ const Footer = () => {
             <div>
                 <img src={assets.nike} className='mb-5 w-20' alt="" />
                 <p className='w-full md:w-2/3 text-gray-600'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, veritatis optio? Similique ab voluptatum beatae voluptates odio et optio mollitia repudiandae debitis, iusto, unde non quibusdam impedit qui dolores. Ea.
+                    Powered by innovation and passion for sport.
+                    At Nike, we believe greatness comes from pushing beyond limits.
+                    Every product we create is designed to inspire movement and confidence.
+                    Join the global community that never stops striving for better.
+                    Your journey doesn't end here it only begins with every step you take.
                 </p>
             </div>
 

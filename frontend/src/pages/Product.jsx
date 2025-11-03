@@ -48,13 +48,13 @@ const Product = () => {
 
           {/* Product Information */}
             <div className='flex-1'>
-              <h1 className='font-medium text-2xl mt-0.5' >{productData.name}</h1>
-              <p className='mt-1 text-gray-500'>{productData.description}</p>
+              <h1 className='text-2xl mt-0.5 montserrat-bold' >{productData.name}</h1>
+              <p className='mt-1 text-gray-500 lato-thin'>{productData.description}</p>
               <p className='mt-5 text-2xl font-medium'>{currency}{productData.price}</p>
-              <p className='text-gray-500'>Hasta 6x $12.300 sin interés.</p>
+              <p className='text-gray-500 lato-thin'>Hasta 6x { (productData.price / 6).toFixed(2) } sin interés.</p>
               <img className='w-[20%] border-1 rounded-lg border-gray-500 mt-1.5' src={image} alt="" />
               <div className='flex flex-col gap-4 my-8'>
-                <p className='font-extralight'>Select Size</p>
+                <p className='lato-thin'>Select Size</p>
                 <div className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2'>
                   {
                     productData.sizes.map((item, index)=>(
