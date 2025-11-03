@@ -96,7 +96,7 @@ const placeOrderMercado = async (req, res) =>{
         res.json({success: false, message:error.message})
     }
 }
-//webhook (verificar?)
+//webhook - (Seguridad)
 const mercadoWebhook = async (req, res) => {
   try {
     const paymentId = req.query['data.id']

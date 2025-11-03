@@ -63,11 +63,11 @@ const Navbar = () => {
               <div className='flex flex-col text-gray-600'>
                   <div className=' flex items-center gap-4 p-3 cursor-pointer' onClick={()=>setVisible(false)}>
                       <img src={assets.chevron_left} className='h-4' alt="" />
-                      <p>Back</p>
+                      <p className='lato-thin'>Back</p>
                   </div>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 .anton-sc-regular' to='/' >HOME</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/collection' >COLLECTION</NavLink>
-                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 ' to='/about' >ABOUT</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 montserrat-bold' to='/' >HOME</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 montserrat-bold' to='/collection' >COLLECTION</NavLink>
+                  <NavLink onClick={()=>setVisible(false)} className='py-2 pl-7 montserrat-bold' to='/about' >ABOUT</NavLink>
               </div>
           </div>
     </div>
