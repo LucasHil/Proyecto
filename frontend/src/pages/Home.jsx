@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero from '../components/Hero.jsx'
-import LatestCollection from '../components/LatestCollection.jsx'
-import BestSeller from '../components/BestSeller.jsx'
-import Banner from '../components/Banner.jsx'
+import Hero from '../components/user/Hero.jsx'
+import LatestCollection from '../components/user/LatestCollection.jsx'
+import BestSeller from '../components/user/BestSeller.jsx'
+import Banner from '../components/user/Banner.jsx'
 
 const Home = () => {
   return (

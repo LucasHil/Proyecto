@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { ShopContext } from '../context/ShopContext.jsx'
+import { ShopContext } from '../../context/ShopContext.jsx'
 import { useSearchParams } from 'react-router-dom';
 import Title from './Title.jsx'
 import ProductItem from './ProductItem.jsx'

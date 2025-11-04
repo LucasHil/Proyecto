@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../components/Title.jsx'
+import Title from '../components/user/Title.jsx'
 import { assets } from '../assets/assets.js'
 
 const About = () => {
